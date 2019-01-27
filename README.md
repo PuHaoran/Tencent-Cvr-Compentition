@@ -10,7 +10,7 @@ CVR (Conversion Rate): 转化率。是一个衡量CPA广告效果的指标，CVR
 
 ## 评估方式
 
-交叉熵损失，数值越小，说明模型效果越好。
+交叉熵损失，数值越小模型效果越好。
 
 ![](http://qzonestyle.gtimg.cn/gdt/canvas/Starry/public/image/formula-1.png)
 
