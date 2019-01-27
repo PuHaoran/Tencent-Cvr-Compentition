@@ -1,4 +1,4 @@
-# Tencent-Cvr-Compentition
+# 腾讯转化率预估比赛
 
 CVR (Conversion Rate): 转化率。是一个衡量CPA广告效果的指标，CVR=(转化量/点击量)*100%。
 
@@ -10,7 +10,7 @@ CVR (Conversion Rate): 转化率。是一个衡量CPA广告效果的指标，CVR
 
 ## 评估方式
 
-交叉熵损失，数值越小模型效果越好。
+交叉熵损失，数值越小，说明模型效果越好。
 
 ![](http://qzonestyle.gtimg.cn/gdt/canvas/Starry/public/image/formula-1.png)
 
@@ -19,6 +19,7 @@ CVR (Conversion Rate): 转化率。是一个衡量CPA广告效果的指标，CVR
 1. 基于ad的方法
 
 根据训练集对某个appID平均转化率来确定测试集用户对该appID的平均转化率。
+
 缺点：影响广告转化的因素有很多，只考虑广告的点击和转化次数，忽略其他特征的做法会影响准确率。比如：一个卖女装的广告，展现给男性和女性的转化率是不同的。不能一概使用 `转化量/点击量` 来做估计。
 
 2. ad+LR版本
